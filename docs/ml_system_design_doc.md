@@ -108,8 +108,13 @@
   
 | Название данных  | Есть ли данные в компании (если да, название источника/витрин) | Требуемый ресурс для получения данных (какие роли нужны) | Проверено ли качество данных (да, нет) |
 | ------------- | ------------- | ------------- | ------------- |
-| Продажи | DATAMARTS_SALES_PER_DAY  | DE/DS | + |
-| ...  | ...  | ... | ... |
+| С360 (звонковая активность) | agg__c360min  | DE/DS | + |
+| service_category | service_category  | DE/DS | + |
+| agg_charge | fintech_leadgen_ml_features_agg_charge_d  | DE/DS | + |
+| agg_usage | fintech_leadgen_ml_features_agg_usage_d  | DE/DS | + |
+| dm_cc_eligible | cc_eligible  | DE/DS | + |
+| esr | fintech_leadgen_ml_features  | DE/DS | + |
+| bank_charge_sms | mtsru_a2pnews_msk_a2pnews__bank  | DE/DS | + |
  
 - Краткое описание результата этапа - что должно быть на выходе: витрины данных, потоки данных, др.  
   
